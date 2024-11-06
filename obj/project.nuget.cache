@@ -1,8 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "S6dYYUa9lJbLzc/c09m5UqgarmZZKzJovJdTUlvhctoL0mPvI9C5tDHr6hfg6+nmTvYcJG/WfyguDbkkmlWXfA==",
+  "dgSpecHash": "jIyZIFfh/1mCdwEUGvBSDTyGrmAtM6UzlaKo5MJKxCq1/rR3p+jJcletiz5khyTHG2/V9sO/KRwUDF4zNTizyg==",
   "success": true,
   "projectFilePath": "/Users/sakabekodai/src/github.com/koudaiii/appinsights-webapp/appinsights-webapp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/sakabekodai/.nuget/packages/azure.core/1.44.1/azure.core.1.44.1.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/azure.identity/1.13.1/azure.identity.1.13.1.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/microsoft.identity.client/4.66.1/microsoft.identity.client.4.66.1.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/microsoft.identity.client.extensions.msal/4.66.1/microsoft.identity.client.extensions.msal.4.66.1.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/microsoft.identitymodel.abstractions/6.35.0/microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.clientmodel/1.1.0/system.clientmodel.1.1.0.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.memory.data/6.0.0/system.memory.data.6.0.0.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.text.json/6.0.10/system.text.json.6.0.10.nupkg.sha512",
+    "/Users/sakabekodai/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }
