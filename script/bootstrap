@@ -1,0 +1,17 @@
+#!/bin/bash
+
+suffix=${1:-$(date +%Y%m%d%H%M%S)}
+resourceGroup=appinsights-webapp-$suffix
+location=westus2
+
+az login
+az group create --name $resourceGroup --location $location
+principalId=$(az ad sp create-for-rbac --name $resourceGroup --role 'Monitoring Metrics Publisher' --scopes /subscriptions/$(az account show --query 'id' -o tsv) --query 'appId' -o tsv)
+echo "principalId: $principalId"
+
+az deployment group create --resource-group $resourceGroup --template-file infra/main.bicep
+
+# Navigate to the script directory
+az monitor app-insights component show  --resource-group $resourceGroup --query '[0].connectionString' -o tsv
+
+echo "dotnet run"
