@@ -1,4 +1,11 @@
+using Microsoft.ApplicationInsights.Extensibility;
+using Azure.Identity;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddApplicationInsightsTelemetry();
+builder.Logging.AddApplicationInsights();
+builder.Services.Configure<TelemetryConfiguration>(config => config.SetAzureTokenCredential(new DefaultAzureCredential()));
 
 // Add services to the container.
 builder.Services.AddRazorPages();
