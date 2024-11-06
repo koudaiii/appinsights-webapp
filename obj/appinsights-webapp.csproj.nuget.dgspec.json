@@ -50,6 +50,10 @@
             "Microsoft.ApplicationInsights.AspNetCore": {
               "target": "Package",
               "version": "[2.22.0, )"
+            },
+            "Microsoft.ApplicationInsights.PerfCounterCollector": {
+              "target": "Package",
+              "version": "[2.22.0, )"
             }
           },
           "imports": [

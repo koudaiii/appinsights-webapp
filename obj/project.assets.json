@@ -142,7 +142,7 @@
           }
         },
         "build": {
-          "build/_._": {}
+          "build/Microsoft.ApplicationInsights.PerfCounterCollector.targets": {}
         }
       },
       "Microsoft.ApplicationInsights.WindowsServer/2.22.0": {
@@ -3633,7 +3633,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Azure.Identity >= 1.13.1",
-      "Microsoft.ApplicationInsights.AspNetCore >= 2.22.0"
+      "Microsoft.ApplicationInsights.AspNetCore >= 2.22.0",
+      "Microsoft.ApplicationInsights.PerfCounterCollector >= 2.22.0"
     ]
   },
   "packageFolders": {
@@ -3683,6 +3684,10 @@
             "version": "[1.13.1, )"
           },
           "Microsoft.ApplicationInsights.AspNetCore": {
+            "target": "Package",
+            "version": "[2.22.0, )"
+          },
+          "Microsoft.ApplicationInsights.PerfCounterCollector": {
             "target": "Package",
             "version": "[2.22.0, )"
           }
